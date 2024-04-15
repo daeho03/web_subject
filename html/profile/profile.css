@@ -1,0 +1,38 @@
+.profile {
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.title {
+  text-align: start;
+}
+
+.content {
+  text-align: start;
+}
+
+/* p{
+    color:green
+  }
+  #special{
+    text-align: center;
+    color:blue;
+  } */
+
+.box {
+  /* 상하좌우 여백 */
+  padding: 30px;
+  /* 상하좌우 안쪽 여백 */
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  /* 박스 가운데정렬 근데 block은 이미 있어서 없어도됨*/
+  /* 가로행 전부를 차지해달라는것 div,p,h태그가 그렇다. */
+
+  font-size: 12px;
+  text-align: start;
+  box-shadow: 5px 5px;
+  /* font-size,font-family,color이런것들은 inherit된다. */
+}
